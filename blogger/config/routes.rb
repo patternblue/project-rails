@@ -55,14 +55,9 @@
 #   #   end
 # end
 Blogger::Application.routes.draw do
-<<<<<<< HEAD
-  # root to: 'articles#index'
+  root to: 'articles#index'
   resources :articles do
     resources :comments
   end
-=======
-  root to: 'articles#index'
-  resources :articles
 
->>>>>>> 05c6e9e084b07374c4529a1080d33f60defd1ccf
 end

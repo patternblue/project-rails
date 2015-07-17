@@ -1,9 +1,6 @@
 class ArticlesController < ApplicationController
-<<<<<<< HEAD
-	  include ArticlesHelper
-=======
+
 	include ArticlesHelper
->>>>>>> 05c6e9e084b07374c4529a1080d33f60defd1ccf
 	def index
 		@articles = Article.all
 	end
